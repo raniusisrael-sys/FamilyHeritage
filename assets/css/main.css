@@ -48,16 +48,17 @@ margin-top:10px;
 }
 
 .menu-card .icon{
-    font-size:50px;
+    font-size:48px;
     margin-bottom:15px;
 }
 
 .menu-card h3{
     font-size:24px;
-    margin-bottom:10px;
+    font-weight:700;
 }
 
 .menu-card p{
-    color:#777;
     font-size:15px;
+    color:#666;
+    line-height:1.4;
 }
