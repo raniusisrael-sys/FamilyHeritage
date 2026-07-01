@@ -1,1 +1,43 @@
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#f3f7f3;
+}
 
+header{
+background:#2e7d32;
+color:white;
+padding:30px;
+text-align:center;
+border-radius:0 0 20px 20px;
+}
+
+.container{
+padding:20px;
+}
+
+.menu{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:15px;
+margin-top:20px;
+}
+
+.menu-card{
+background:white;
+padding:25px;
+border-radius:20px;
+text-align:center;
+text-decoration:none;
+color:#222;
+box-shadow:0 5px 15px rgba(0,0,0,.12);
+transition:.3s;
+}
+
+.menu-card:hover{
+transform:translateY(-5px);
+}
+
+.menu-card h3{
+margin-top:10px;
+}
