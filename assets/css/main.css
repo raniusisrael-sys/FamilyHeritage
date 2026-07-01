@@ -41,3 +41,23 @@ transform:translateY(-5px);
 .menu-card h3{
 margin-top:10px;
 }
+
+.menu-card{
+    text-decoration:none;
+    color:#222;
+}
+
+.menu-card .icon{
+    font-size:50px;
+    margin-bottom:15px;
+}
+
+.menu-card h3{
+    font-size:24px;
+    margin-bottom:10px;
+}
+
+.menu-card p{
+    color:#777;
+    font-size:15px;
+}
